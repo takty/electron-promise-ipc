@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "build": "mkdirp build && babel src --out-dir build --source-maps",
     "prepublish": "npm run build",
-    "clean": "rimraf build"
+    "clean": "rimraf build",
+    "postinstall": "npm run build"
   },
   "main": "build/index.js",
   "repository": {
