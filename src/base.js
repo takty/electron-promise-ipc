@@ -1,7 +1,5 @@
 import uuid from 'uuid/v4';
-import Promise from 'bluebird';
 import serializeError from 'serialize-error';
-import Map from 'es6-map';
 import { ipcMain } from 'electron'; // eslint-disable-line
 
 export default class PromiseIpcBase {
